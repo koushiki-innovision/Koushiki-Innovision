@@ -1,0 +1,142 @@
+body {
+    background: white;
+    margin: 0;
+    padding: 20px;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue",
+      Helvetica, Arial, "Lucida Grande", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+  }
+  
+  #table {
+    display: table;
+  
+    width: 100%;
+    background: #f6f3f378;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  .caption {
+    display: block;
+    width: 100%;
+    background: #7851a9;
+    height: 80px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 35px;
+    line-height: 55px;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    text-align: center;
+  } 
+  
+  
+  .logo-img {
+    height: 50px;
+    margin-top: 0px;
+    width: 320px;
+    border-radius:10px;
+    margin-top: 15px;
+  
+  } 
+  
+  .header-row {
+    background: #8b8b8b;
+    color: #fff;
+    text-align: center;
+  }
+  
+  .row {
+    display: table-row;
+  }
+  
+  .cell {
+    display: table-cell;
+  
+    padding: 6px;
+    border-bottom: 1px solid #e5e5e5;
+    text-align: center;
+  }
+  
+  .primary {
+    text-align: left;
+  }
+  
+  @media only screen and (max-width: 760px) {
+    body {
+      padding: 0;
+    }
+  
+    #table {
+      display: block;
+      margin: 44px 0 0 0;
+    }
+  
+ 
+    .row {
+      position: relative;
+      display: block;
+      border-bottom: 1px solid #ccc;
+    }
+  
+    .header-row {
+      display: none;
+    }
+  
+    .cell {
+      display: block;
+  
+      border: none;
+      position: relative;
+      height: 45px;
+      line-height: 45px;
+      text-align: center;
+    }
+  
+    .primary:after {
+      content: "";
+      display: block;
+      position: absolute;
+      right: 20px;
+      top: 18px;
+      z-index: 2;
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-right: 10px solid #ccc;
+    }
+  }
+
+.trees{
+    align-content: center;
+}
+
+  
+.btn {
+    background-color: #7851a9;
+    border-radius: 100px;
+    color: white;
+    cursor: pointer;
+    display: inline-block;
+    font-family: CerebriSans-Regular, -apple-system, system-ui, Roboto, sans-serif;
+    padding: 7px 20px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 250ms;
+    border: 0;
+    font-size: 16px;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05) rotate(-1deg);
+  }
+  
+  a {
+    text-decoration: none;
+  }

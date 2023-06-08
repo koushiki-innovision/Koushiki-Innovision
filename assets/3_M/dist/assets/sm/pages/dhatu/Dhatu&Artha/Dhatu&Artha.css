@@ -1,0 +1,77 @@
+h1 {text-align: center;}
+h1 {color:rgb(255, 175, 47);}
+
+h2 {color: rgb(179, 0, 255);}
+
+table, th, td {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+td {text-align: center;
+    background-color: rgb(255, 255, 175);
+}
+
+th {text-align: center;
+    background-color: rgb(204, 102, 255);
+    border-radius: 6px;
+}
+
+#btn{background-color: rgb(146, 30, 255);
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 80px;
+    border-radius: 20px;
+    border: 0px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+.center {
+    height: 45px;
+    margin-top: 12px;
+    width: 260px;
+    border-radius: 5px;
+  
+  }
+
+.topnav .search-container {
+    float: right;
+    
+}
+
+.topnav input[type=text] {
+    padding: 6px;
+    margin-top: 16px;
+    font-size: 17px;
+    border: 1%;
+}
+
+.topnav .search-container button {
+    float: right;
+    padding: 6px 15px;
+    margin-top: 16px;
+    margin-right: 16px;
+    font-size: 17px;
+    border: 1%;
+    cursor: pointer;
+}
+
+.caption {
+    display: block;
+    width: 100%;
+    background: #7851a9;
+    height: 70px;
+    padding-left: 10px;
+    color: #fff;
+    font-size: 35px;
+    line-height: 55px;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.3);
+    box-sizing: border-box;
+    text-align: center;
+  } 
+  
+
+
